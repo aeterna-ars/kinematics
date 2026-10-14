@@ -2,9 +2,7 @@
 name = "kinematics"
 version = "0.1.0"
 edition = "2024"
+rust-version = "1.85"
 
 [dependencies]
-
-
-[toolchain]
-channel = "nightly"
+libm = { version = "0.2.16", default-features = false }

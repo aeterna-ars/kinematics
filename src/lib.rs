@@ -1,11 +1,13 @@
 #![no_std]
-#![feature(core_float_math)]
-#![feature(core_intrinsics)]
+#![doc = include_str!("../docs/getting-started.md")]
+#![doc = include_str!("../docs/conventions.md")]
+#![doc = include_str!("../docs/api.md")]
+#![doc = include_str!("../docs/development.md")]
 
-mod space;
 mod constraint;
+mod space;
 mod state;
 
-pub use space::*;
 pub use constraint::*;
+pub use space::*;
 pub use state::*;
